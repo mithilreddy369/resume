@@ -407,3 +407,90 @@ footer .social-links a:hover {
   color: #f9f9f9; /* Change icon color on hover */
   transform: scale(1.2); /* Increase size of icon on hover */
 }
+
+
+
+/* Mobile devices */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Adjust the font size for better readability on small screens */
+  }
+
+  header {
+    padding: 15px 0; /* Reduce header padding for smaller screens */
+  }
+
+  nav a {
+    font-size: 1.2rem; /* Decrease the font size of navigation links */
+  }
+
+  .about-grid,
+  .skills-grid,
+  .project-container {
+    grid-template-columns: 100%; /* Display one column for smaller screens */
+  }
+
+  .profile-image {
+    margin-right: 0; /* Remove right margin for the profile image */
+  }
+
+  .word-container {
+    height: auto; /* Allow the word container to adjust its height */
+  }
+
+  .word {
+    font-size: 1.2em; /* Adjust the font size of the word */
+  }
+
+  section {
+    padding: 20px; /* Reduce section padding for smaller screens */
+  }
+
+  table {
+    font-size: 0.9em; /* Decrease the font size of the table for better fit on small screens */
+  }
+
+  footer {
+    padding: 15px; /* Reduce footer padding for smaller screens */
+  }
+}
+
+
+
+/* Tablets */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  header {
+    padding: 20px 0; /* Increase header padding for better spacing on tablets */
+  }
+
+  nav a {
+    font-size: 1.4rem; /* Slightly increase the font size of navigation links on tablets */
+  }
+
+  .about-grid,
+  .skills-grid,
+  .project-container {
+    grid-template-columns: repeat(2, 1fr); /* Use two columns for better layout on tablets */
+  }
+
+  .profile-image {
+    margin-right: 20px; /* Add some margin back for the profile image */
+  }
+
+  .word {
+    font-size: 1.5em; /* Adjust the font size of the word for tablets */
+  }
+
+  section {
+    padding: 30px; /* Increase section padding for tablets */
+  }
+
+  table {
+    font-size: 1em; /* Adjust the font size of the table for tablets */
+  }
+
+  footer {
+    padding: 20px; /* Adjust footer padding for tablets */
+  }
+}
+
