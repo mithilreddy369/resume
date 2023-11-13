@@ -413,38 +413,38 @@ footer .social-links a:hover {
 /* Mobile devices */
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 14px;
+    font-size: 16px; /* Slightly increase the base font size for better readability */
   }
 
   header {
-    padding: 15px 20px; /* Add padding to the sides for better spacing */
+    padding: 15px 20px;
   }
 
   nav {
-    flex-direction: column; /* Stack navigation links vertically for better mobile layout */
-    align-items: center; /* Center align navigation links */
+    flex-direction: column;
+    align-items: center;
   }
 
   nav a {
-    font-size: 1.2rem;
-    margin: 10px 0; /* Add margin between navigation links for better touch experience */
+    font-size: 1.4rem; /* Slightly increase the font size of navigation links */
+    margin: 10px 0;
   }
 
   .profile-box {
-    text-align: center; /* Center align the profile box content */
+    text-align: center;
   }
 
   .profile-image {
-    margin: 10px 0; /* Add margin for the profile image */
+    margin: 10px 0;
   }
 
   .word-container {
     height: auto;
-    margin-bottom: 10px; /* Add some space below the word container */
+    margin-bottom: 10px;
   }
 
   .word {
-    font-size: 1.5em;
+    font-size: 1.8em; /* Increase the font size of the word for emphasis */
   }
 
   section {
@@ -454,20 +454,20 @@ footer .social-links a:hover {
   .about-box,
   .skill-box,
   .project-item {
-    margin-bottom: 20px; /* Add space between different sections */
+    margin-bottom: 20px;
   }
 
   table {
-    font-size: 1em;
+    font-size: 1.2em; /* Slightly increase the font size of the table text */
   }
 
   footer {
     padding: 15px;
   }
     /* Stack "Career Objective" and "Skills" vertically */
-    .about-grid,
-    .skills-grid {
-      grid-template-columns: 100%; /* Use a single column for better stacking */
+    #about,
+    #skills {
+      display: block; /* Change the display property to block for stacking vertically */
     }
   
     /* Center-align the content in "About Me" and "Technical Skills" sections */
@@ -476,6 +476,7 @@ footer .social-links a:hover {
       text-align: center;
     }
 }
+
 
 
 
