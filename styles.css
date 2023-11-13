@@ -413,45 +413,56 @@ footer .social-links a:hover {
 /* Mobile devices */
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 14px; /* Adjust the font size for better readability on small screens */
+    font-size: 14px;
   }
 
   header {
-    padding: 15px 0; /* Reduce header padding for smaller screens */
+    padding: 15px 20px; /* Add padding to the sides for better spacing */
+  }
+
+  nav {
+    flex-direction: column; /* Stack navigation links vertically for better mobile layout */
+    align-items: center; /* Center align navigation links */
   }
 
   nav a {
-    font-size: 1.2rem; /* Decrease the font size of navigation links */
+    font-size: 1.2rem;
+    margin: 10px 0; /* Add margin between navigation links for better touch experience */
   }
 
-  .about-grid,
-  .skills-grid,
-  .project-container {
-    grid-template-columns: 100%; /* Display one column for smaller screens */
+  .profile-box {
+    text-align: center; /* Center align the profile box content */
   }
 
   .profile-image {
-    margin-right: 0; /* Remove right margin for the profile image */
+    margin: 10px 0; /* Add margin for the profile image */
   }
 
   .word-container {
-    height: auto; /* Allow the word container to adjust its height */
+    height: auto;
+    margin-bottom: 10px; /* Add some space below the word container */
   }
 
   .word {
-    font-size: 1.2em; /* Adjust the font size of the word */
+    font-size: 1.5em;
   }
 
   section {
-    padding: 20px; /* Reduce section padding for smaller screens */
+    padding: 20px;
+  }
+
+  .about-box,
+  .skill-box,
+  .project-item {
+    margin-bottom: 20px; /* Add space between different sections */
   }
 
   table {
-    font-size: 0.9em; /* Decrease the font size of the table for better fit on small screens */
+    font-size: 1em;
   }
 
   footer {
-    padding: 15px; /* Reduce footer padding for smaller screens */
+    padding: 15px;
   }
 }
 
