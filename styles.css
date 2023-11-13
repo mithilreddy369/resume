@@ -464,6 +464,17 @@ footer .social-links a:hover {
   footer {
     padding: 15px;
   }
+    /* Stack "Career Objective" and "Skills" vertically */
+    .about-grid,
+    .skills-grid {
+      grid-template-columns: 100%; /* Use a single column for better stacking */
+    }
+  
+    /* Center-align the content in "About Me" and "Technical Skills" sections */
+    .about-box,
+    .skill-box {
+      text-align: center;
+    }
 }
 
 
